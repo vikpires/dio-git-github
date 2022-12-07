@@ -1,4 +1,5 @@
 # Repositório do Desafio de Projeto sobre Git e GitHub
 
-##### Bem vindo ao meu repositório de introdução do Git e GitHub. A ideia do desafio da DIO é realizar a criação, atualização e sincronização de um primeiro repositório no GitHub. Neste respositório serão compartilhadas anotações e exercícios realizados durante as aulas.
+##### Bem vindo ao meu repositório de introdução do Git e GitHub!
+Este é o meu primeiro repositório no github, um desafio proposto pelo curso de Git e Github da DIO. O objetivo é a criação, atualização e sincronização do primeiro repositório no GitHub. Neste respositório serão compartilhadas anotações realizadas durante as aulas. 
 
