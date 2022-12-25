@@ -81,7 +81,7 @@
 | Ctrl + L                                                        | Limpar entradas no terminal do git                                                                                         |
 | ls                                                              | listar arquivos e diretórios                                                                                               |
 | ls -a                                                           | listar arquivos e diretórios ocultos                                                                                       |
-| :q!                                                             | Sair sem relaizar alterações no git                                                                                        |
+| :q                                                             | Sair sem relaizar alterações no git                                                                                        |
 | :wq                                                             | Sair e salvar                                                                                                              |
 | Atalho: tab                                                     | Autocompleta comandos                                                                                                      |
 | Atalho: seta (up/down)                                          | Lista últimos comandos executados                                                                                          |
@@ -109,5 +109,11 @@
 4. git remote add origin link_repositório_do_github.git 
 5. git branch M- main
 6. git pull -u origin main
+
+#### Reverter alterações de commits já enviados:
+1. git log
+2. copiar SHA1 hash do commit
+3. git revert "SHA1"
+
 
 
