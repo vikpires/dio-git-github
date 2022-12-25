@@ -46,45 +46,45 @@
 
 #### Comandos básicos:
 
-| Comandos básicos                                                | Descrição                                                                                                                  |
-|-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| git init: iniciar git na pasta bash                             | Criar um novo repositório                                                                                                  |
-| git add:                                                        | Adiciona arquivo ao index                                                                                                  |
-| git add \*:                                                     | Adiciona todos os arquivos index                                                                                           |
-| git commit -m “commit inicial”                                  | Avançar para o atual branch                                                                                                |
-| git config –global user.name “Seu nome aqui”                    | Identificar o nome do usuário                                                                                              |
-| git config –global user.email you@yourdomain.example.com        | Identificar o email do usuário (o mesmo do login do github)                                                                |
-| git config –global –unset user.name “Seu nome aqui”             | Resetar o nome informado                                                                                                   |
-| git config –global –unset user.email you@yourdomain.example.com | Resetar o email informado                                                                                                  |
-| git config –list                                                | Lista todas as configurações do Git                                                                                        |
-| git config –global alias.                                       | Cria um alias de um comando do git para maior agilidade no comando (incluir após o ponto o alias e seu respectivo comando) |
-| git config –global –unset alias.                                | Apagar um alias criado (não esquecer de especificar o alias após o ponto)                                                  |
-| git config –global core.editor "code --wait"                    | Configurar o git para escrever o código direto no VS Code                                                                  |
-| git config –global --unset core.editor                          | Desfazer o core editor                                                                                                     |
-| git clone                                                       | Clonar um repositório em um novo diretório                                                                                 |
-| git push                                                        | Atualização remota de um repositório (no caso, no github)                                                                  |
-| git pull                                                        | Buscar e integrar com outro repositório existente                                                                          |
-| git log                                                         | Lista o histórico de commits presentes no repósitório                                                                      |
-| git log –oneline                                                | Lista o histórico de commits numa linha                                                                                    |
-| git checkout                                                    | Mover-se entre as branches                                                                                                 |
-| git checkout -b nome da branch                                  | Mover e criar nova branch                                                                                                  |
-| git checkout -m nome da branch                                  | Alterar o nome da branch                                                                                                   |
-| git checkout -d nome da branch                                  | Deletar branch                                                                                                             |
-| git branch                                                      | Listar branches                                                                                                            |
-| git merge                                                       | Mesclar branches                                                                                                           |
-| git stash                                                       | Espaço temporário numa branch                                                                                              |
-| git stash list                                                  | Listar todas as stashes                                                                                                    |
-| git stash pop                                                   | Mesclar uma stash a um branch                                                                                              |
-| git reset --soft HEAD~1                                         | Reseta um commit para uma posição inversa de stage                                                                         |
-| git reset --mixed HEAD~1                                        | Reseta um commit para uma posição inversa de untracked                                                                     |
-| git reset --hard HEAD~1                                         | Apaga o commit e seu arquivo associado                                                                                     |
-| Ctrl + L                                                        | Limpar entradas no terminal do git                                                                                         |
-| ls                                                              | listar arquivos e diretórios                                                                                               |
-| ls -a                                                           | listar arquivos e diretórios ocultos                                                                                       |
-| :q!                                                             | Sair sem relaizar alterações no git                                                                                        |
-| :wq                                                             | Sair e salvar                                                                                                              |
-| Atalho: tab                                                     | Autocompleta comandos                                                                                                      |
-| Atalho: seta (up/down)                                          | Lista últimos comandos executados                                                                                          |
+| Comandos básicos                    | Descrição                                                                                                                  |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| git init: iniciar git na pasta bash | Criar um novo repositório                                                                                                  |
+| git add:                            | Adiciona arquivo ao index                                                                                                  |
+| git add *                           | Adiciona todos os arquivos index                                                                                           |
+| git commit -m “commit inicial”      | Avançar para o atual branch                                                                                                |
+|                                     | Identificar o nome do usuário                                                                                              |
+|                                     | Identificar o email do usuário (o mesmo do login do github)                                                                |
+|                                     | Resetar o nome informado                                                                                                   |
+|                                     | Resetar o email informado                                                                                                  |
+|                                     | Lista todas as configurações do Git                                                                                        |
+|                                     | Cria um alias de um comando do git para maior agilidade no comando (incluir após o ponto o alias e seu respectivo comando) |
+|                                     | Apagar um alias criado (não esquecer de especificar o alias após o ponto)                                                  |
+|                                     | Configurar o git para escrever o código direto no VS Code                                                                  |
+|                                     | Desfazer o core editor                                                                                                     |
+|                                     | Clonar um repositório em um novo diretório                                                                                 |
+|                                     | Atualização remota de um repositório (no caso, no github)                                                                  |
+|                                     | Buscar e integrar com outro repositório existente                                                                          |
+|                                     | Lista o histórico de commits presentes no repósitório                                                                      |
+|                                     | Lista o histórico de commits numa linha                                                                                    |
+|                                     | Mover-se entre as branches                                                                                                 |
+|                                     | Mover e criar nova branch                                                                                                  |
+|                                     | Alterar o nome da branch                                                                                                   |
+|                                     | Deletar branch                                                                                                             |
+|                                     | Listar branches                                                                                                            |
+| git merge "nome_branch"             | Mesclar branches                                                                                                           |
+| git stash                           | Espaço temporário numa branch                                                                                              |
+| git stash list                      | Listar todas as stashes                                                                                                    |
+| git stash pop                       | Mesclar uma stash a um branch                                                                                              |
+| git reset --soft HEAD~1             | Reseta um commit para uma posição inversa de stage                                                                         |
+| git reset --mixed HEAD~1            | Reseta um commit para uma posição inversa de untracked                                                                     |
+| git reset --hard HEAD~1             | Apaga o commit e seu arquivo associado                                                                                     |
+| Ctrl + L                            | Limpar entradas no terminal do git                                                                                         |
+| ls                                  | listar arquivos e diretórios                                                                                               |
+| ls -a                               | listar arquivos e diretórios ocultos                                                                                       |
+| q                                   | Sair e retornar à linha de código do git                                                                                   |
+| :wq                                 | Sair, salvar e retornar à linha de código do git                                                                           |
+| Atalho: tab                         | Autocompleta comandos                                                                                                      |
+| Atalho: seta (up/down)              | Lista últimos comandos executados                                                                                          |
 #### Transferência - Repositório Github:
 1. git add *
 2. git commit -m “commit inicial”
