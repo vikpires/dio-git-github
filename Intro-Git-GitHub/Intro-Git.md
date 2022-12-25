@@ -85,5 +85,29 @@
 | :wq                                                             | Sair e salvar                                                                                                              |
 | Atalho: tab                                                     | Autocompleta comandos                                                                                                      |
 | Atalho: seta (up/down)                                          | Lista últimos comandos executados                                                                                          |
+#### Transferência - Repositório Github:
+1. git add *
+2. git commit -m “commit inicial”
+3. git log --oneline
+4. git remote add origin link_repositório_do_github.git 
+5. git branch M- main
+6. git push -u origin main
+
+#### Transferência - Mudança de Repositório Github:
+1. git add *
+2. git commit -m “commit inicial”
+3. git log --oneline
+4. git remote rm origin
+5. git remote add origin novo_repositório_a_ser_apontado.git 
+6. git branch M- main
+7. git push -u origin main
+
+#### Integrar alterações - Repositório Github:
+1. git add *
+2. git commit -m “commit inicial”
+3. git log --oneline
+4. git remote add origin link_repositório_do_github.git 
+5. git branch M- main
+6. git pull -u origin main
 
 
