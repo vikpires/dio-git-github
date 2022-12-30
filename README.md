@@ -3,7 +3,7 @@
 <strong>❯❯:zap: Challenge:</strong>
 - Create a Github repository with Git.
 
-<strong>❯❯:compass: Goal:</strong>
+<strong>❯❯:compass: Description:</strong>
 - Creation, update and upload my first GitHub repository with notes, shortcuts and tips about Git & Github during the course.
 
 <strong>❯❯:hammer_and_wrench: Tools:</strong>
